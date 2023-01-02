@@ -10,7 +10,7 @@
 .services .container{
     position: relative;
 }
-.services h2{
+.services h2, .about h2{
     color: #0e132a;
     font-size: 70px;
     font-weight: 700;
@@ -87,4 +87,77 @@
     transition: 0.7s;
     margin-left: 7%;
     margin-top: -3% !important;
+}
+.services .icon-col{
+    margin-top: -2%;
+}
+.about{
+    margin-left: 13%;
+    overflow-x: hidden;
+
+}
+.about .wrapper{
+    margin-top: 10%;
+    max-width: 100%;
+}
+.about span{
+    font-size: 140px;
+    font-weight: 800;
+    -webkit-text-stroke: 1px #f6f7f8;
+    color: transparent;
+    margin: 0;
+    line-height: 1;
+    position: absolute;
+    top: -60px;
+    z-index: 1;
+}
+.about .text{
+    margin-top: 27%;
+    font-size: 17px;
+    color: #0b0b2b;
+    margin-bottom: 11%;
+    font-family: "Barlow",sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+}
+.about .text-about{
+    margin-bottom: 46px;
+    font-family: "Barlow",sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: normal;
+}
+.about .btn{
+    background-color: #ff5f13;
+    color: #fff;
+    width: 34%;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 0;
+    border-radius: 5px;
+    padding: 5%;
+    margin-left: 2.5%;
+    background-image: linear-gradient(#be4f13,#be4f13);
+    background-size: 0% 100%;
+    background-repeat: no-repeat;
+    transition: 0.4s;
+    font-family: "Barlow",sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+.about .btn:hover{
+    background-size: 100% 100%;
+}
+.about .col-img{
+    margin-left: 0%;
+}
+.about .image{
+    display:inline;
+    width: 89%;
+    height: 84%;
+    margin-left: 15%;
+}
+.about .fit-row{
+    width: 75%;
 }
