@@ -113,7 +113,7 @@
 }
 .about .text{
     margin-top: 27%;
-    font-size: 17px;
+    font-size: 22px;
     color: #0b0b2b;
     margin-bottom: 11%;
     font-family: "Barlow",sans-serif;
@@ -132,7 +132,7 @@
     background-color: #ff5f13;
     color: #fff;
     width: 34%;
-    font-weight: 500;
+    font-weight: 600;
     letter-spacing: 1px;
     margin: 0;
     border-radius: 5px;
@@ -144,7 +144,6 @@
     transition: 0.4s;
     font-family: "Barlow",sans-serif;
     font-size: 16px;
-    font-weight: normal;
 }
 .about .btn:hover{
     background-size: 100% 100%;
@@ -158,6 +157,76 @@
     height: 84%;
     margin-left: 15%;
 }
-.about .fit-row{
-    width: 75%;
+.talk:before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+}
+.talk{
+    text-align: center;
+    background: url('../img/section-bg2.jpg')center center;
+    background-size: cover;
+    position: relative;
+    min-height: 800px;
+    overflow-x: hidden;
+}
+.talk h2{
+    font-size: 70px;
+    color: #fff;
+    margin-left: -3%;
+}
+.talk span{
+    font-size: 140px;
+    font-weight: 800;
+    margin-left: -9.5%;
+    line-height: 1;
+    position: absolute;
+    transform: translateY(-50%);
+    right: 0;
+    left: 1.9%;
+    color: transparent;
+    -webkit-text-stroke: 1px #f6f7f8;
+    z-index: 1;
+}
+.talk h2, .talk span{
+    margin-top: 13%;
+}
+.talk h2{
+    margin-left: -12.3%;
+}
+.talk .text{
+    font-family: "Barlow",sans-serif;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 70%;
+    margin-left: 12.4%;
+    text-align: left;
+}
+.talk .buttn{
+    background: #fff;
+    text-transform: uppercase;
+    color: #161e46;
+    padding: 1%;
+    margin-left: 2.5%;
+    font-family: "Barlow",sans-serif;
+    width: 10%;
+    background-image: linear-gradient(#be4f13,#be4f13);
+    background-size: 100% 0%;
+    background-repeat: no-repeat;
+    transition: 0.4s;
+    border: none;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 2;
+}
+.talk .buttn:hover{
+    background-size: 100% 100%;
+    color: #fff;
+    background-color: transparent;
+}
+.talk .button{
+    margin-left: 19.5%;
 }
