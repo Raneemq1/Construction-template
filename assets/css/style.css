@@ -6,7 +6,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    color:#212529;
+}
 /* ########### public style ########### */
+
+/**Add top margin between header and services section **/
+.services{
+    margin-top:100px;
+}
 .services .container{
     position: relative;
 }
@@ -128,7 +137,7 @@
     line-height: 24px;
     font-weight: normal;
 }
-.about .btn{
+.btn{
     background-color: #ff5f13;
     color: #fff;
     width: 34%;
@@ -145,8 +154,9 @@
     font-family: "Barlow",sans-serif;
     font-size: 16px;
 }
-.about .btn:hover{
+ .btn:hover{
     background-size: 100% 100%;
+    color: #fff;
 }
 .about .col-img{
     margin-left: 0%;
@@ -204,7 +214,7 @@
     margin-left: 12.4%;
     text-align: left;
 }
-.talk .buttn{
+.buttn{
     background: #fff;
     text-transform: uppercase;
     color: #161e46;
@@ -212,7 +222,7 @@
     margin-left: 2.5%;
     font-family: "Barlow",sans-serif;
     width: 10%;
-    background-image: linear-gradient(#be4f13,#be4f13);
+    background-image: linear-gradient(#ff5f13,#ff5f13);
     background-size: 100% 0%;
     background-repeat: no-repeat;
     transition: 0.4s;
@@ -222,7 +232,7 @@
     letter-spacing: 1px;
     line-height: 2;
 }
-.talk .buttn:hover{
+.buttn:hover{
     background-size: 100% 100%;
     color: #fff;
     background-color: transparent;
@@ -230,3 +240,56 @@
 .talk .button{
     margin-left: 19.5%;
 }
+
+
+/*Nvbar style */
+
+nav{
+   background-color:rgba(25,26,51,1); 
+   
+}
+.first-nav{
+    border-bottom:1px solid rgba(255, 255, 255, 0.1);
+    font-size:12px;
+}
+
+.second-nav{
+padding-bottom:20px;
+
+
+}
+.second-nav .btn{
+    width:145px;
+    padding:13px;
+    font-size: 14px; 
+
+}
+
+.second-nav .nav-list{
+    margin-right:20%;
+}
+
+.second-nav .navbar-brand{
+    margin-left: 10px;
+}
+/*Header Style*/
+
+header{
+  background-image:url(../img/header_bg.webp);
+  background-attachment:fixed;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+  z-index:1;
+   
+}
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4));
+  }
