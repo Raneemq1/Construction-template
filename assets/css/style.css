@@ -11,7 +11,9 @@ body{
     color:#212529;
 }
 /* ########### public style ########### */
-
+li {
+    list-style: none;
+}
 /**Add top margin between header and services section **/
 .services{
     margin-top:100px;
@@ -137,7 +139,7 @@ body{
     line-height: 24px;
     font-weight: normal;
 }
-.btn{
+ .btn{
     background-color: #ff5f13;
     color: #fff;
     width: 34%;
@@ -154,7 +156,7 @@ body{
     font-family: "Barlow",sans-serif;
     font-size: 16px;
 }
- .btn:hover{
+.btn:hover{
     background-size: 100% 100%;
     color: #fff;
 }
@@ -241,47 +243,53 @@ body{
     margin-left: 19.5%;
 }
 
-
 /*Nvbar style */
 
 nav{
-   background-color:rgba(25,26,51,1); 
-   
-}
-.first-nav{
-    border-bottom:1px solid rgba(255, 255, 255, 0.1);
-    font-size:12px;
-}
-
-.second-nav{
-padding-bottom:20px;
-
-
-}
-.second-nav .btn{
-    width:145px;
-    padding:13px;
-    font-size: 14px; 
-
-}
-
-.second-nav .nav-list{
-    margin-right:20%;
-}
-
-.second-nav .navbar-brand{
-    margin-left: 10px;
-}
-/*Header Style*/
+    background-color:rgba(25,26,51,1); 
+    font-family: "Barlow",sans-serif;
+    font-size: 14px;
+    
+ }
+ .first-nav{
+     border-bottom:1px solid #3e4160;
+     font-size:12px;
+ }
+ 
+ .second-nav{
+ padding-bottom:20px;
+ 
+ 
+ }
+ .second-nav .btn{
+     width:145px;
+     padding:13px;
+     font-size: 14px; 
+ 
+ }
+ 
+ .first-nav .nav-item{
+    margin-right:10px;
+ }
+ .second-nav .nav-list{
+     margin-right:30%;
+ }
+ .second-nav .nav-item{
+    margin-right:15px;
+ }
+ 
+ .second-nav .navbar-brand{
+     margin-left: 10px;
+ }
+/*Main Style*/
 
 header{
   background-image:url(../img/header_bg.webp);
-  background-attachment:fixed;
   background-size: cover;
   background-position: center;
   height: 100vh;
   position: relative;
-  z-index:1;
+  
    
 }
 header::before {
