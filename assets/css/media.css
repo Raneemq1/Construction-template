@@ -8,6 +8,11 @@
      display:none !important;
      opacity:0;
    }
+   footer .row {
+    display: inline-block !important;
+     width: 100%;
+    
+   }
 }
 
 @media  screen and (max-width: 772px) {
@@ -86,8 +91,14 @@
    }
    .wave-text h1{
     font-size:44px;
-    right:-150px;
+    right:-120px;
    }
+   header .span{
+    font-size:18px;
+    top:150px;
+    right:10px;
+   }
+
   
   }
 
