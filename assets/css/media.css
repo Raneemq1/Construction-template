@@ -81,6 +81,13 @@
    nav .logo{
     src:url("../img/loder-logo.png") !important;
    }
+   header .text{
+    font-size:44px;
+   }
+   .wave-text h1{
+    font-size:44px;
+    right:-150px;
+   }
   
   }
 

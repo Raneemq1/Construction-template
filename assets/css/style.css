@@ -401,7 +401,7 @@ header::before {
 
 .wave-text h1:nth-child(1){
     color:transparent;
-    -webkit-text-stroke:3px #f45303;
+    -webkit-text-stroke:1px #fff;
 }
 
 .wave-text h1:nth-child(2){
