@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@500;600&family=Teko:wght@300;400;500;600;700&display=swap");
+=======
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500;600&family=Teko:wght@300;400;500;600;700&display=swap');
+>>>>>>> 4a846bdadfc404149ef4ad402233b319398b2040
 
 * {
   margin: 0;
@@ -443,6 +449,7 @@ header .second-text {
       0% 100%
     );
   }
+<<<<<<< HEAD
   50% {
     clip-path: polygon(
       0% 60%,
@@ -564,6 +571,66 @@ footer .item2 {
   border-radius: 50%;
   border: 3px solid transparent;
   border-bottom-color: #ff3d00;
+=======
+  header .text{
+    font-size:140px;
+    font-weight: 800;
+    color:#f45303;
+    position:absolute;
+    left:82px;
+    top:180px;
+    
+  }
+
+  header span{
+    color:#fff;
+    font-size:18px;
+    font-family: 'Teko', sans-serif;
+    position:absolute;
+    left:108px;
+  }
+  header .first-text{
+    top:164px;
+  }
+  header .first-text::before{
+    content:'';
+    display:block;
+    position: relative;
+    border-top:3px solid #f45303;
+    width:10%;
+    top:14px;
+    right:28px;
+
+  }
+
+  header .second-text::before{
+    content:'';
+    display:block;
+    position: relative;
+    border-top:3px solid #f45303;
+    width:30%;
+    top:14px;
+    right:28px;
+
+  }
+
+  header .second-text{ 
+    top:440px;
+  }
+
+.wave-text{
+    position: relative;
+}
+
+.wave-text h1{
+    font-size:140px;
+    font-weight: 800;
+    position:absolute;
+    right:-300px;
+    top:200px;
+    color:#fff;
+    transform: translate(-50%,50%);
+>>>>>>> 4a846bdadfc404149ef4ad402233b319398b2040
 }
 
 @keyframes rotation {
@@ -573,4 +640,89 @@ footer .item2 {
   100% {
     transform: rotate(360deg);
   }
+}
+
+/*Footer Style*/
+footer{
+    height:550px;
+    background-color:#070B11;
+    
+  
+}
+
+footer .sign-up{
+    background-color:#070B11;
+    
+}
+footer .email{
+    background-color:#1E293A;   
+}
+
+footer span{
+    font-size:30px;
+    font-weight: 500;
+    font-family:"Teko",sans-serif; 
+}
+footer .space{
+    margin-top:20px;
+}
+.overview{
+    margin-top:4%;
+}
+.overview p{
+  margin-top:27px;
+  font-family: "Barlow",sans-serif;
+  line-height:1.8;
+  color:#9fa6bd !important;
+}
+.links{
+    margin-top:4%;
+}
+
+.contact{
+    margin-top:4%;
+}
+.register{
+    margin-top:3%;
+}
+.register .button{
+    margin-left:5px;
+}
+
+.links li,.contact li{
+    font-family: "Barlow",sans-serif;
+    margin-bottom:20px;
+    font-size:16px;
+}
+
+footer .copyright{
+margin-top:7%;
+font-size:16px;
+color:#9fa6bd !important;
+}
+footer .heart{
+    color:#f45303;
+}
+.register img{
+    margin-top:25px;
+    width:80%;
+}
+footer .overview img{
+    width:35%;
+}
+
+footer .web-name{
+    color:#f45303;
+}
+
+
+.footer-bar{
+    width:100%;
+    height:15%;
+}
+footer .item1{
+    color:#868C98 !important;
+}
+footer .item2{
+    color:#9fa6bd !important;
 }

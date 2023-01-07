@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @media screen and (max-width: 992px) {
   .top-bar {
     display: none;
@@ -13,6 +14,23 @@
   .services .row {
     display: inline-block !important;
   }
+=======
+@media  screen and (max-width: 992px) {
+  .top-bar{
+    display:none;
+  
+ 
+   }
+   nav .btn{
+     display:none !important;
+     opacity:0;
+   }
+   footer .row {
+    display: inline-block !important;
+     width: 100%;
+    
+   }
+>>>>>>> 4a846bdadfc404149ef4ad402233b319398b2040
 }
 
 @media screen and (max-width: 772px) {
@@ -76,8 +94,37 @@
     margin: 0;
     padding: 0;
   }
+<<<<<<< HEAD
   .top-bar {
     display: none;
+=======
+  .top-bar{
+    display:none;
+  
+ 
+   }
+   nav .btn{
+     display:none !important;
+     opacity:0;
+   }
+   nav .logo{
+    src:url("../img/loder-logo.png") !important;
+   }
+   header .text{
+    font-size:44px;
+   }
+   .wave-text h1{
+    font-size:44px;
+    right:-120px;
+   }
+   header .span{
+    font-size:18px;
+    top:150px;
+    right:10px;
+   }
+
+  
+>>>>>>> 4a846bdadfc404149ef4ad402233b319398b2040
   }
   nav .btn {
     display: none !important;
