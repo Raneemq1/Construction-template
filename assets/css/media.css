@@ -10,6 +10,9 @@
     display: inline-block !important;
     width: 100%;
   }
+  .services .row {
+    display: inline-block !important;
+  }
 }
 
 @media screen and (max-width: 772px) {
