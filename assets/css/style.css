@@ -368,6 +368,7 @@ nav .btn:hover{
 
   }
 
+ 
   .dropdown-menu {
     position: absolute;
     left: 0;
@@ -376,7 +377,7 @@ nav .btn:hover{
     border-radius:0;
   }
   
-
+  
 .nav-item:hover a{
     color:#ff5f13 !important;
 }
@@ -559,8 +560,38 @@ footer .web-name{
     height:15%;
 }
 footer .item1{
-    color:#868C98 !important;
+    color:#868C98 ;
 }
 footer .item2{
-    color:#9fa6bd !important;
+    color:#9fa6bd ;
 }
+
+footer li{
+    transform: transition 0.5s;
+}
+footer a:hover li{
+    color:#f45303; 
+    transform:translateX(4px);
+}
+
+input::placeholder {
+    padding: 5px;
+  }
+
+  @keyframes slide1 {
+    0% {
+      transform: translateX(-0.2%);
+    }
+    50%{
+        transform: translateX(0);
+    }
+    100% {
+      transform: translateX(0.2%);
+    }
+  }
+
+  .animated-image {
+  animation: slide1 2s ease-in-out infinite alternate;
+  
+}
+  

@@ -38,6 +38,9 @@
 .talk .button{
   margin-left: 11%;
 }
+footer .row{
+  display:inline-block;
+}
 }
 
 @media screen and (max-width: 772px) {
@@ -126,4 +129,5 @@
     top: 150px;
     right: 10px;
   }
+  
 }
