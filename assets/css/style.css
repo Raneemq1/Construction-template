@@ -750,6 +750,7 @@ input::placeholder {
   background-color:#00235b;
   padding: 40px 57px 40px 60px;
   
+  
 }
 .latest-new .content-div span{
   color:#a4acc3;
@@ -769,9 +770,16 @@ input::placeholder {
 }
 .latest-img{
   position: relative;
+  
+}
+.latest-img .img-div{
+  overflow: hidden;
 }
 .latest-img img{
  width:100%;
+ border:2px solid #00235b;
+ transform:scale(1.1);
+
 }
 .latest-img .img-content1{
   background-color:#f45303;
