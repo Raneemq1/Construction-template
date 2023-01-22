@@ -416,6 +416,16 @@ header {
   left: 0;
   position: relative;
 }
+.header-service {
+  background-image: url("../img/about.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  top: 0;
+  right: 0;
+  left: 0;
+  position: relative;
+}
 
 header::before {
   content: "";
@@ -434,13 +444,26 @@ header .text {
   left: 82px;
   top: 180px;
 }
-
+.header-service .text {
+  font-size: 60px;
+  font-weight: 800;
+  color: #ffffff;
+  left: 190px;
+  top: 150px;
+}
 header span {
   color: #fff;
   font-size: 18px;
   font-family: "Teko", sans-serif;
   position: absolute;
   left: 108px;
+}
+.header-service span {
+  color: #ff5f13;
+  font-size: 29px;
+  font-family: "Teko", sans-serif;
+  position: absolute;
+  left: 130px;
 }
 header .first-text {
   top: 164px;
@@ -454,7 +477,21 @@ header .first-text::before {
   top: 14px;
   right: 28px;
 }
-
+.header-service .second-text {
+  top: 250px;
+  left: 250px;
+  font-size: 17px;
+  font-family: "Barlow", sans-serif;
+}
+.header-service .second-text::before {
+  content: "";
+  display: block;
+  position: relative;
+  border-top: 1px solid #f45303;
+  width: 33%;
+  top: 14px;
+  right: 60px;
+}
 header .second-text::before {
   content: "";
   display: block;
@@ -711,177 +748,164 @@ input::placeholder {
 }
 
 /*Style latest new */
-.latest-new{
-  margin-left:10%;
- 
-  
+.latest-new {
+  margin-left: 10%;
 }
-.latest-title{
+.latest-title {
   position: relative;
-  height:180px;
+  height: 180px;
 }
-.latest-title h2{
+.latest-title h2 {
   color: #0e132a;
   font-size: 70px;
   font-weight: 700;
   line-height: 1.2;
   font-family: "Teko", sans-serif;
-  position:absolute;
-  z-index:8;
-  top: 62px;;
-  left:0;
- 
+  position: absolute;
+  z-index: 8;
+  top: 62px;
+  left: 0;
 }
-.latest-title span.back-text{
+.latest-title span.back-text {
   font-size: 140px;
   font-weight: 800;
   -webkit-text-fill-color: transparent;
-  -webkit-text-stroke:1px #f6f7f8;
-  line-height:1;
-  font-family:"Barlow", sans-serif;
-  position:absolute;
-  top:0px;
-  left:25px;
-  z-index:6;
-
+  -webkit-text-stroke: 1px #f6f7f8;
+  line-height: 1;
+  font-family: "Barlow", sans-serif;
+  position: absolute;
+  top: 0px;
+  left: 25px;
+  z-index: 6;
 }
 
-.latest-new .content-div{
-  background-color:#00235b;
+.latest-new .content-div {
+  background-color: #00235b;
   padding: 40px 57px 40px 60px;
-  
-  
 }
-.latest-new .content-div span{
-  color:#a4acc3;
-
+.latest-new .content-div span {
+  color: #a4acc3;
 }
-.latest-new .content-div h3{
-  margin-bottom:17px;
+.latest-new .content-div h3 {
+  margin-bottom: 17px;
   margin-top: 16px;
-  line-height:1.5;
-  font-size:25px;
+  line-height: 1.5;
+  font-size: 25px;
   font-weight: 700;
-  font-family:"Barlow", sans-serif;
-  transition:color 0.4s;
+  font-family: "Barlow", sans-serif;
+  transition: color 0.4s;
 }
-.latest-new .content-div .text-color{
-  color:#f45303;
+.latest-new .content-div .text-color {
+  color: #f45303;
 }
-.latest-img{
+.latest-img {
   position: relative;
-  
 }
-.latest-img .img-div{
+.latest-img .img-div {
   overflow: hidden;
 }
-.latest-img img{
- width:100%;
- border:2px solid #00235b;
- transform:scale(1.1);
-
+.latest-img img {
+  width: 100%;
+  border: 2px solid #00235b;
+  transform: scale(1.1);
 }
-.latest-img .img-content1{
-  background-color:#f45303;
-  position:absolute;
-  padding:15px 34px;
-  top:0px;
-  left:0px;
-  font-weight:600;
-
+.latest-img .img-content1 {
+  background-color: #f45303;
+  position: absolute;
+  padding: 15px 34px;
+  top: 0px;
+  left: 0px;
+  font-weight: 600;
 }
 
-.latest-img .img-content2{
-  background-color:#f45303;
-  position:absolute;
-  padding:15px 34px;
-  top:0px;
-  left:42.4%;
-  font-weight:600;
-
+.latest-img .img-content2 {
+  background-color: #f45303;
+  position: absolute;
+  padding: 15px 34px;
+  top: 0px;
+  left: 42.4%;
+  font-weight: 600;
 }
 
-.span1{
-  font-size:25px;
+.span1 {
+  font-size: 25px;
 }
-.span2{
-  font-size:16px;
-}
-
-.latest-new .content-div h3:hover{
-color:#f45303 !important;
+.span2 {
+  font-size: 16px;
 }
 
-.latest-new .content-div .link{
-border-bottom:none;
-transition: border-bottom 0.5s;;
+.latest-new .content-div h3:hover {
+  color: #f45303 !important;
 }
-.latest-new .content-div .link:hover{
-border-bottom:1px solid #f45303;
+
+.latest-new .content-div .link {
+  border-bottom: none;
+  transition: border-bottom 0.5s;
+}
+.latest-new .content-div .link:hover {
+  border-bottom: 1px solid #f45303;
 }
 
 /** style testimonial**/
 
-.testimonial{
-  height:703px;
-  background-color:#00235b;
-  margin-bottom:30px;
+.testimonial {
+  height: 703px;
+  background-color: #00235b;
+  margin-bottom: 30px;
   position: relative;
-
 }
-.test-content{
-  
-  margin-left:13%;
+.test-content {
+  margin-left: 13%;
 }
-.test-title{
-  margin-top:20px;
+.test-title {
+  margin-top: 20px;
   position: relative;
-  height:180px;
+  height: 180px;
 }
-.test-title h2{
+.test-title h2 {
   color: #fff;
   font-size: 70px;
   font-weight: 700;
   line-height: 1.2;
   font-family: "Teko", sans-serif;
-  position:absolute;
-  z-index:8;
-  top: 62px;;
-  left:0;
-  margin-top:70px;
+  position: absolute;
+  z-index: 8;
+  top: 62px;
+  left: 0;
+  margin-top: 70px;
 }
 
-.test-title span{
+.test-title span {
   font-size: 140px;
   font-weight: 800;
   -webkit-text-fill-color: transparent;
-  -webkit-text-stroke:1px rgba(255, 255, 255, 0.2);
-  line-height:1;
-  font-family:"Barlow", sans-serif;
-  position:absolute;
-  top:-5px;
-  left:14px;
-  z-index:6;
-  margin-top:68px;
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.2);
+  line-height: 1;
+  font-family: "Barlow", sans-serif;
+  position: absolute;
+  top: -5px;
+  left: 14px;
+  z-index: 6;
+  margin-top: 68px;
 }
-.test-swipe{
-  margin-top:7%;
-  margin-left:7%;
+.test-swipe {
+  margin-top: 7%;
+  margin-left: 7%;
 }
-.test-swipe .swipe-p{
-  color:#a4acc3;
+.test-swipe .swipe-p {
+  color: #a4acc3;
   font-size: 16px;
-  font-family:"Barlow", sans-serif;
+  font-family: "Barlow", sans-serif;
   font-weight: 500;
 }
 
-.test-swipe .founder-text{
-  padding-left:18px;
-  margin-top: 35px;;
+.test-swipe .founder-text {
+  padding-left: 18px;
+  margin-top: 35px;
   font-size: 16px;
-  font-family:"Barlow", sans-serif;
-  border-left:2px solid #f45303;
+  font-family: "Barlow", sans-serif;
+  border-left: 2px solid #f45303;
 }
-.test-swipe .founder-text p{
-  color:#677294;
+.test-swipe .founder-text p {
+  color: #677294;
 }
