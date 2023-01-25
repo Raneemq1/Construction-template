@@ -63,7 +63,7 @@
     <!--Start Navbar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top p-4">
       <div class="container">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.html">
           <img class="logo" src="assets/img/logo.png" alt="logo"
         /></a>
         <button
@@ -135,45 +135,79 @@
 
     <!--Start contact form-->
 
-<section class="contact">
-  <h2 class="d-block">Get in touch</h2>
-  <div class="contact-form d-flex">
-   <div class="form-content col-6">
-    <div class="textarea">
-      <textarea id="myTextArea" placeholder="Enter a message"></textarea>
-    </div>
-    <div class="user-entry">
-    <input placeholder="User Name" class="col-5"/>
-    <input placeholder="User Email" class="col-5"/>
-    </div>
-    <div class="subject">
-      <input placeholder="User Name" class="col-11"/>
-    </div>
-    <div class="button">
-      <button class="btn btn-outline-success">Send</button>
-    </div>
-   
-   </div>
-
-   <div class="form-icons col-5">
-<div class="icon">
-  <div class="icon-data">
-    <p> <i class="fa-solid fa-house"></i>Buttonwood, California.
-      <span class="d-block">Rosemead, CA 91770</span></p>
+<section class="contact-page">
+<div class="row">
+  <div class="col-12 contact-title">
+    <h2 class="d-block">Get in Touch</h2>
   </div>
-  <div class="icon">
-    <div class="icon-data">
-      <p> <i class="fa-solid fa-house"></i>Buttonwood, California.
-        <span class="d-block">Rosemead, CA 91770</span></p>
+  <div class="col-8">
+  <form>
+   <div class="form-group">
+    <div class="col-12 contact-item">
+      <textarea class="form-control" id="mytextArea" placeholder="Enter a message"></textarea>
     </div>
-    <div class="icon">
-      <div class="icon-data">
-        <p> <i class="fa-solid fa-house"></i>Buttonwood, California.
-          <span class="d-block">Rosemead, CA 91770</span></p>
+    <div class="row">
+      <div class="col-6  contact-item">
+        <input class="form-control" placeholder="Enter your name">
       </div>
-</div>
+      <div class="col-6 contact-item">
+        <input type="email" class="form-control" placeholder="Email">
+      </div>
+    </div>
+
+    <div class="col-12 contact-item">
+      <input class="form-control" placeholder="Enter subject">
+    </div>
+
+    <div class="col-12 contact-button">
+      <span class="text-uppercase bg-transparent button-contact">Send</span>
+    </div>
    </div>
+  </form>
   </div>
+  <div class="col-3">
+    <div class="icon">
+      <div class="row">
+        <div class="col-1 ">
+          <i class="fa-solid fa-house d-inline-block symbol"></i>
+        </div>
+     
+      <div class="icon-body col-10">
+        <h3>Buttonwood, California.</h3>
+        <p>Rosemead, CA 91770</p>
+      </div>
+      </div>
+    </div>
+
+    <div class="icon">
+      <div class="row">
+        <div class="col-1 ">
+          <i class="fa-solid fa-tablet-screen-button symbol"></i>
+        </div>
+     
+      <div class="icon-body col-10">
+        <h3>+1 253 565 2365</h3>
+        <p>Mon to Fri 9am to 6pm</p>
+      </div>
+      </div>
+    </div>
+
+
+    <div class="icon">
+      <div class="row">
+        <div class="col-1 ">
+          <i class="fa-solid fa-envelope symbol"></i>
+        </div>
+     
+      <div class="icon-body col-10">
+        <h3>support@colorlib.com</h3>
+        <p>Send us your query anytime!</p>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 </section>
 
     <!--End contact form-->
