@@ -990,6 +990,30 @@ input::placeholder {
 }
 
 /**Style contact page **/
-.contact-map{
-  height:100vh;
+
+.contact-map .map {
+  margin-top:5%;
+  margin-left:11%;
+  position: relative;
+ 
+}
+.contact-map .map ::before{
+  content:"";
+  position:absolute;
+  top:0;
+  right:0;
+  left:0;
+  bottom:0;
+  background-image: -webkit-linear-gradient(0deg, rgba(203, 205, 222, 0.749) 0%, rgba(2,8,52,0.14902) 100%);
+}
+#myTextArea {
+  min-width: 700px;
+  min-height: 200px;
+}
+.contact{
+  margin-top:15%;
+  margin-left:11%;
+}
+.contact-form{
+  
 }
