@@ -1157,7 +1157,8 @@ h2 .text_service {
 .button_section,
 .laligned_section,
 .raligned_section,
-.definition_section {
+.definition_section,
+.quote_section {
   width: 80%;
   margin: auto;
   margin-top: 7%;
@@ -1371,4 +1372,9 @@ sub {
   height: 3.3vh !important;
   width: 13vh !important;
   padding-top: 0.15% !important;
+}
+.q-block {
+  padding: 30px 50px 30px 30px;
+  background: #f9f9ff;
+  border-left: 2px solid #1f2b7b;
 }
