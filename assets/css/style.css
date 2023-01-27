@@ -1194,25 +1194,50 @@ u, del, sub{
   background: #1f2b7b;
   border: 1px solid transparent;
 }
+.button_section .btn-primary:hover{
+  color: #1f2b7b;
+  background: #fff;
+  border: 1px solid #1f2b7b;
+}
 .button_section .btn-success{
     color: #fff;
     background: #4cd3e3;
     border: 1px solid transparent;
+}
+.button_section .btn-success:hover{
+  color: #4cd3e3;
+  background: #fff;
+  border: 1px solid #4cd3e3;
 }
 .button_section .btn-info{
   color: #fff;
   border: 1px solid transparent;
   background: #38a4ff;
 }
+.button_section .btn-info:hover{
+  color: #38a4ff;
+  background: #fff;
+  border: 1px solid #38a4ff;
+}
 .button_section .btn-warning{
   color: #fff;
   border: 1px solid transparent;
   background: #f4e700;
 }
+.button_section .btn-warning:hover{
+  color: #f4e700;
+  background: #fff;
+  border: 1px solid #f4e700;
+}
 .button_section .btn-danger{
   color: #fff;
   border: 1px solid transparent;
   background: #f44a40;
+}
+.button_section .btn-danger:hover{
+  color: #f44a40;
+  background: #fff;
+  border: 1px solid #f44a40;
 }
 .button_section .btn-link{
   color: #415094;
@@ -1226,6 +1251,9 @@ u, del, sub{
   cursor: not-allowed;
   color: #1696e7;
 }
+.button_section .disable:hover{
+  color: transparent
+}
 .button_section .default{
   color: #415094;
   background: #f9f9ff;
@@ -1234,4 +1262,5 @@ u, del, sub{
 .button_section .btn{
   width:15vh;
   font-size: 13px;
+  height: 6vh;
 }
