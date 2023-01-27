@@ -1152,12 +1152,14 @@ h2 .text_service {
   line-height: 1.2;
   font-family: "Teko", sans-serif;
 }
-.element_section, .button_section{
+.element_section,
+.button_section {
   width: 80%;
   margin: auto;
   margin-top: 7%;
 }
-.element_section, .button_section h3{
+.element_section,
+.button_section h3 {
   font-family: "Barlow", sans-serif;
   color: #0b1c39;
   margin-top: 0px;
@@ -1165,102 +1167,189 @@ h2 .text_service {
   font-weight: 500;
   text-transform: normal;
 }
-.element_section p{
-  font-family: "Barlow",sans-serif;
-  color: "Barlow",sans-serif;
+.element_section p {
+  font-family: "Barlow", sans-serif;
+  color: "Barlow", sans-serif;
   font-size: 16px;
   line-height: 24px;
   margin-bottom: 15px;
   font-weight: normal;
 }
-.word_one{
+.word_one {
   font-weight: bold;
   color: #1f2b7b;
 }
-.word_two{
+.word_two {
   font-weight: bold;
 }
-.word_three{
+.word_three {
   font-weight: bold;
 }
-u, del, sub{
+u,
+del,
+sub {
   color: #1f2b7b;
 }
-.button_section button{
+.button_section button {
   border-radius: 0 !important;
 }
-.button_section .btn-primary{
+.button_section .btn-primary {
   color: #fff;
   background: #1f2b7b;
   border: 1px solid transparent;
 }
-.button_section .btn-primary:hover{
+.button_section .btn-primary:hover {
   color: #1f2b7b;
   background: #fff;
   border: 1px solid #1f2b7b;
 }
-.button_section .btn-success{
-    color: #fff;
-    background: #4cd3e3;
-    border: 1px solid transparent;
+.button_section .primary:hover {
+  color: #fff;
+  background: #1f2b7b;
+  border: 1px solid transparent;
 }
-.button_section .btn-success:hover{
+.button_section .primary {
+  color: #1f2b7b;
+  background: #fff;
+  border: 1px solid #1f2b7b;
+}
+.button_section .btn-success {
+  color: #fff;
+  background: #4cd3e3;
+  border: 1px solid transparent;
+}
+.button_section .btn-success:hover {
   color: #4cd3e3;
   background: #fff;
   border: 1px solid #4cd3e3;
 }
-.button_section .btn-info{
+.button_section .success:hover {
+  color: #fff;
+  background: #4cd3e3;
+  border: 1px solid transparent;
+}
+.button_section .success {
+  color: #4cd3e3;
+  background: #fff;
+  border: 1px solid #4cd3e3;
+}
+.button_section .btn-info {
   color: #fff;
   border: 1px solid transparent;
   background: #38a4ff;
 }
-.button_section .btn-info:hover{
+.button_section .btn-info:hover {
   color: #38a4ff;
   background: #fff;
   border: 1px solid #38a4ff;
 }
-.button_section .btn-warning{
+.button_section .info:hover {
+  color: #fff;
+  border: 1px solid transparent;
+  background: #38a4ff;
+}
+.button_section .info {
+  color: #38a4ff;
+  background: #fff;
+  border: 1px solid #38a4ff;
+}
+.button_section .btn-warning {
   color: #fff;
   border: 1px solid transparent;
   background: #f4e700;
 }
-.button_section .btn-warning:hover{
+.button_section .btn-warning:hover {
   color: #f4e700;
   background: #fff;
   border: 1px solid #f4e700;
 }
-.button_section .btn-danger{
+.button_section .warning:hover {
+  color: #fff;
+  border: 1px solid transparent;
+  background: #f4e700;
+}
+.button_section .warning {
+  color: #f4e700;
+  background: #fff;
+  border: 1px solid #f4e700;
+}
+.button_section .btn-danger {
   color: #fff;
   border: 1px solid transparent;
   background: #f44a40;
 }
-.button_section .btn-danger:hover{
+.button_section .btn-danger:hover {
   color: #f44a40;
   background: #fff;
   border: 1px solid #f44a40;
 }
-.button_section .btn-link{
+.button_section .danger:hover {
+  color: #fff;
+  border: 1px solid transparent;
+  background: #f44a40;
+}
+.button_section .danger {
+  color: #f44a40;
+  background: #fff;
+  border: 1px solid #f44a40;
+}
+.button_section .btn-link {
   color: #415094;
   background: #f9f9ff;
   text-decoration: underline;
   border: 1px solid transparent;
 }
-.button_section .disable{
+.button_section .disable {
   background: #f9f9ff;
   border: 1px solid transparent;
   cursor: not-allowed;
   color: #1696e7;
 }
-.button_section .disable:hover{
-  color: transparent
+.button_section .disable:hover {
+  color: transparent;
 }
-.button_section .default{
+.button_section .default {
   color: #415094;
   background: #f9f9ff;
   border: 1px solid transparent;
 }
-.button_section .btn{
-  width:15vh;
+.button_section .btn_default {
+  color: #1696e7;
+}
+.button_section .btn {
+  width: 15vh;
   font-size: 13px;
   height: 6vh;
+}
+.b-section-two .btn {
+  border-radius: 3px !important;
+}
+.b-section-three .btn {
+  border-radius: 27px !important;
+}
+.b-section-four .btn {
+  border-radius: 35px !important;
+}
+.e-lg {
+  padding: 2vh 0;
+  height: 8vh !important;
+  width: 21vh !important;
+}
+.lg-b {
+  padding: 2vh 0;
+  height: 7vh !important;
+  width: 13vh !important;
+}
+.d-b {
+  height: 5vh !important;
+  width: 15vh !important;
+}
+.m-b {
+  height: 4vh !important;
+  width: 13vh !important;
+}
+.s-b {
+  height: 3.3vh !important;
+  width: 13vh !important;
+  padding-top: 0.15% !important;
 }
