@@ -29,6 +29,10 @@
   </head>
 
   <body>
+      <!--Loading icon-->
+      <div class="loading" id="loading">
+        <span class="loader"></span>
+      </div>
     <!--Move to top button-->
     <span class="rounded-pill move-top" id="move-to-up"><i class="fa-solid fa-arrow-up text-white"></i></span>
     <!--Navbar section contains from top-header and navbar-->
@@ -60,55 +64,82 @@
     </div>
     <!--End top-header -->
 
-    <!--Start Navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top p-4">
-      <div class="container">
-        <a class="navbar-brand" href="index.html">
-          <img class="logo" src="assets/img/logo.png" alt="logo"
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
-            <li class="nav-item">
-              <a class="nav-link active text-white" aria-current="page" href="index.html"
-                >Home</a
+  <!--Start Navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top p-2">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img class="logo" src="assets/img/logo.png" alt="logo"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="index.html"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="about.html">About</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link text-white" href="projects.html"> Projects </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link text-white" href="services.html">Services</a>
+          </li>
+
+         
+          <li class="nav-item dropdown ">
+            <a
+              class="nav-link dropdown text-white"
+            
+              href="blog.html">
+             Blog
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+              <li><a class="dropdown-item" href="blog-details.html">Blog Details</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown text-white"
               >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="about.html">About</a>
-            </li>
+             Pages
+            </a>
+            <ul class="dropdown-menu" >
+              <li><a class="dropdown-item" href="element.html">Element</a></li>
+              <li><a class="dropdown-item" href="projects-details.html">Project Details</a></li>
+              <li><a class="dropdown-item" href="service-details.html">Service Details</a></li>
+            </ul>
+          </li>
 
-            <li class="nav-item dropdown">
-              <a class="nav-link text-white" href="projects.html"> Projects </a>
-            </li>
 
-            <li class="nav-item">
-              <a class="nav-link text-white" href="services.html">Services</a>
-            </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="contact.html">Contact</a>
+          </li>
+        </ul>
 
-            <li class="nav-item">
-              <a class="nav-link text-white" href="contact.html">Contact</a>
-            </li>
-          </ul>
-
-          <button class="btn text-uppercase text-white p-3" type="submit">
-            Contact Now
-          </button>
-        </div>
+        <button class="btn text-uppercase text-white p-3" type="submit">
+          Contact Now
+        </button>
       </div>
-    </nav>
+    </div>
+  </nav>
 
-    <!--End Navbar -->
+  <!--End Navbar -->
 
     <!--Start Header-->
     <header class="about-header">
