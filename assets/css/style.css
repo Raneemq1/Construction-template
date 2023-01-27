@@ -1151,12 +1151,22 @@ h2 .text_service {
   font-weight: 700;
   line-height: 1.2;
   font-family: "Teko", sans-serif;
+  width: 100%;
 }
 .element_section,
-.button_section {
+.button_section,
+.laligned_section,
+.raligned_section {
   width: 80%;
   margin: auto;
   margin-top: 7%;
+}
+.laligned_section {
+  width: 93%;
+  margin-left: 10%;
+}
+.raligned_section {
+  text-align: right;
 }
 .element_section,
 .button_section h3 {
