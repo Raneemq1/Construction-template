@@ -1156,10 +1156,19 @@ h2 .text_service {
 .element_section,
 .button_section,
 .laligned_section,
-.raligned_section {
+.raligned_section,
+.definition_section {
   width: 80%;
   margin: auto;
   margin-top: 7%;
+}
+.definition_section h4 {
+  font-family: "Barlow", sans-serif;
+  color: #0b1c39;
+  margin-top: 0px;
+  font-style: normal;
+  font-weight: 500;
+  text-transform: normal;
 }
 .laligned_section {
   width: 93%;
