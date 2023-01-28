@@ -1158,7 +1158,8 @@ h2 .text_service {
 .laligned_section,
 .raligned_section,
 .definition_section,
-.quote_section {
+.quote_section,
+.table_section {
   width: 80%;
   margin: auto;
   margin-top: 7%;
@@ -1377,4 +1378,68 @@ sub {
   padding: 30px 50px 30px 30px;
   background: #f9f9ff;
   border-left: 2px solid #1f2b7b;
+}
+.table_section table {
+  background: #f9f9ff;
+  padding: 15px 0px 30px 0px;
+  min-width: 800px;
+  font-family: "Barlow", sans-serif;
+  font-size: 1rem;
+}
+.table_section table th {
+  font-weight: normal !important;
+}
+.table_section .section-t {
+  padding-top: 2%;
+  height: 12%;
+}
+.table_section .section-t1 {
+  border-bottom: #6382e6 6px solid;
+  width: 60% !important;
+}
+.table_section .section-t2 {
+  border-bottom: #e66686 6px solid;
+  width: 20% !important;
+}
+.table_section .section-t3 {
+  border-bottom: #f09359 6px solid;
+  width: 40% !important;
+}
+.table_section .section-t4 {
+  border-bottom: #73fbaf 6px solid;
+  width: 44% !important;
+}
+.table_section .section-t5 {
+  border-bottom: #73fbaf 6px solid;
+  width: 25% !important;
+}
+.table_section .section-t6 {
+  border-bottom: #6382e6 6px solid;
+  width: 56% !important;
+}
+.table_section .section-t7 {
+  border-bottom: #a367e7 6px solid;
+  width: 17% !important;
+}
+.table_section .section-t8 {
+  border-bottom: #e66686 6px solid;
+  width: 47% !important;
+}
+.table_section .f-t-s {
+  width: 11.83%;
+  padding-left: 30px;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+.f-n{
+  color: #415094;
+  line-height: 40px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.img-t{
+  padding-right: 2%;
+}
+.scrollit {
+  overflow-x:scroll;
 }
