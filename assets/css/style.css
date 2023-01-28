@@ -1159,7 +1159,8 @@ h2 .text_service {
 .raligned_section,
 .definition_section,
 .quote_section,
-.table_section {
+.table_section,
+.set_gallery {
   width: 80%;
   margin: auto;
   margin-top: 7%;
@@ -1454,6 +1455,20 @@ sub {
 .space-between {
   justify-content: space-between;
 }
-.last-img{
+.last-img {
   margin-top: -12%;
+}
+.header-col {
+  color: #828bb2;
+}
+.u-r-l:before{
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    border: 3px solid #1f2b7b;
+    background: #fff;
+    top: 15px;
+    left: 15px;
+    border-radius: 50%;
 }
