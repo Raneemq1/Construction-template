@@ -1160,7 +1160,8 @@ h2 .text_service {
 .definition_section,
 .quote_section,
 .table_section,
-.set_gallery {
+.set_gallery,
+.form_gallery {
   width: 80%;
   margin: auto;
   margin-top: 7%;
@@ -1461,14 +1462,14 @@ sub {
 .header-col {
   color: #828bb2;
 }
-.u-r-l:before{
-    content: "";
-    position: absolute;
-    width: 14px;
-    height: 14px;
-    border: 3px solid #1f2b7b;
-    background: #fff;
-    top: 15px;
-    left: 15px;
-    border-radius: 50%;
+.u-r-l:before {
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  border: 3px solid #1f2b7b;
+  background: #fff;
+  top: 15px;
+  left: 15px;
+  border-radius: 50%;
 }
