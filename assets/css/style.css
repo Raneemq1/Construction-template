@@ -1473,3 +1473,42 @@ sub {
   left: 15px;
   border-radius: 50%;
 }
+.form_gallery input:focus::placeholder {
+  color: transparent;
+}
+.single-textarea {
+  display: block;
+  width: 100%;
+  line-height: 40px;
+  border: none;
+  background: #f9f9ff;
+  padding: 0 20px;
+  height: 100px;
+}
+.form_gallery input {
+  background: #f9f9ff;
+  border: none;
+  outline: none;
+}
+.form_gallery .fas {
+  font-size: x-small;
+  font-style: normal;
+}
+.form_gallery input, textarea{
+  -webkit-appearance: none;
+  box-shadow: none !important;
+}
+.form-gallery input:focus,
+textarea:focus{
+  outline: none;
+}
+#fname.active,
+#lname-1.active,
+#lname-2.active,
+#input-email.active,
+#address-txt.active,
+#p-txt.active,
+#s-txt.active,
+#a-txt.active {
+  background: #f9f9ff;
+}
