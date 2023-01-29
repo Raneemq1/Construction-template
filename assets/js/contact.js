@@ -29,5 +29,5 @@ window.addEventListener("load", function () {
     load.style.opacity = "0";
     load.style.transition = "1s";
     body.style.overflowY = "auto";
-  }, 2000);
+  }, 1000);
 });
