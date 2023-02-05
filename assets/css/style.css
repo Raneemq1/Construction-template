@@ -2176,7 +2176,7 @@ margin-top:12%;
 }
 
 
-#myImg{
+#myImg, #myImg_1, #myImg_2,#myImg_3,#myImg_4,#myImg_5,#myImg_6,#myImg_7{
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
@@ -2235,7 +2235,7 @@ margin-top:12%;
 }
 
 /* The Close Button */
-.close {
+.close, .close_0 , .close_1, .close_2, .close_3, .close_4, .close_5, .close_6{
   position: absolute;
   top: 15px;
   right: 35px;
@@ -2246,7 +2246,14 @@ margin-top:12%;
 }
 
 .close:hover,
-.close:focus {
+.close:focus,.close_0:hover,
+.close_0:focus, .close_1:hover,
+.close_1:focus,.close_2:hover,
+.close_2:focus,.close_3:hover,
+.close_3:focus,.close_4:hover,
+.close_4:focus,.close_5:hover,
+.close_5:focus,.close_6:hover,
+.close_6:focus{
   text-decoration: none;
   cursor: pointer;
 }
