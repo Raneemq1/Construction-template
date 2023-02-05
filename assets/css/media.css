@@ -41,9 +41,16 @@
 footer .row{
   display:inline-block;
 }
+.services .icon {
+  margin-top: -4% !important;
+}
 }
 
 @media screen and (max-width: 772px) {
+  .services .icon {
+    margin-top: -5% !important;
+    margin-left: 4% !important;
+  }
   .services .row {
     display: inline-block !important;
   }
