@@ -148,47 +148,47 @@ li {
   width: 100%;
   overflow: hidden;
 }
-.services .text-read,
-i {
+.services .text-read {
   color: #161e46;
   font-size: 16px;
   font-weight: 500;
   margin-bottom: 10px;
 }
 .services i {
-  color: #161e46;
   background: transparent;
   text-align: center;
   font-size: 15px;
   transition: 0.7s;
+  display: inline-block;
+  color:#070b11 !important;
+  font-style: normal;
+  font-weight: normal;
+  width: 38px;
+  line-height: 38px;
+  font-variant: normal;
+  text-transform: none;
 }
-.services .read:hover .icon {
+.services .b-s:hover i {
   background-color: #ff5f13;
+  width: 38px;
+  line-height: 38px;
 }
-.services .read .icon i{
-  color:#1696e7;
-}
-.services .read:hover i {
-  color: #fcfdff;
+.services .b-s:hover i {
+  color: #fcfdff !important;
 }
 .services .icon {
   transition: 0.7s;
-  margin-left: 7%;
+  margin-left: 4%;
   margin-top: -3% !important;
 }
 .services .icon-col {
   margin-top: -2%;
-}
-.services .read i {
-  font-size: 20px;
-  font-weight: lighter;
 }
 .about {
   margin-left: 13%;
 }
 .project {
   margin-left: 13%;
-  margin-bottom: 7%;
 }
 .about h2 {
   color: #0e132a;
