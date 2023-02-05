@@ -10,46 +10,46 @@
     display: inline-block !important;
     width: 100%;
   }
-  .services .icon-col img{
+  .services .icon-col img {
     visibility: hidden;
   }
-  .about{
+  .about {
     display: inline-block !important;
   }
-  .about .row-btn{
+  .about .row-btn {
     margin-left: -50%;
   }
-  .about h2{
+  .about h2 {
     position: absolute;
     width: fit-content;
     margin: auto;
   }
-  .talk .row-paragraph{
+  .talk .row-paragraph {
     position: absolute;
     margin-left: 10% !important;
   }
-  .rectangle{
+  .rectangle {
     visibility: hidden;
   }
-  .about .row-paragraph{
+  .about .row-paragraph {
     margin-left: -12% !important;
     padding: 21.3%;
   }
-.talk .button{
-  margin-left: 11%;
-}
-footer .row{
-  display:inline-block;
-}
-.services .icon {
-  margin-top: -4% !important;
-}
+  .talk .button {
+    margin-left: 11%;
+  }
+  footer .row {
+    display: inline-block;
+  }
+  .services .icon {
+    margin-top: -4% !important;
+  }
 }
 
 @media screen and (max-width: 772px) {
   .project .text-container {
     width: 58.4%;
-}
+  }
   .services .icon {
     margin-top: -5% !important;
     margin-left: 4% !important;
@@ -78,11 +78,16 @@ footer .row{
     margin: 0%;
     padding: 0%;
   }
+  .about .text br,
+  .text-about br {
+    content: "";
+  }
   .about h2 {
-    margin-top: -52%;
+    margin-top: -32%;
     font-size: 50px;
     font-weight: 700;
     padding: 0% 12%;
+    margin-left: -14%;
   }
   .about .row {
     display: inline-block !important;
@@ -96,6 +101,24 @@ footer .row{
   }
   .about .btn {
     width: fit-content;
+  }
+  .text-about {
+    margin-left: -8%;
+    margin-top: -55%;
+  }
+  .about .text,
+  .text-about {
+    width: 90vh !important;
+    text-align: left;
+  }
+  .about .row .btn{
+    margin-top: -96vh !important;
+    margin-left: -18vh !important;
+  }
+  .project .column-container {
+    display: flex !important;
+    justify-content: left;
+    margin-left: -30%;
   }
   .talk h2 {
     font-size: 50px;
@@ -114,8 +137,8 @@ footer .row{
     margin: 0;
     padding: 0;
   }
-  .rectangle{
-    visibility: hidden;
+  .about .row-btn{
+    width: 34% !important;
   }
   .top-bar {
     display: none;
@@ -139,5 +162,4 @@ footer .row{
     top: 150px;
     right: 10px;
   }
-  
 }
