@@ -2331,3 +2331,18 @@ margin-top:12%;
   text-decoration: none;
   cursor: pointer;
 }
+.l-select{
+    border-radius: 0px;
+    height: 40px;
+    background: #f9f9ff;
+    padding-left: 20px;
+    padding-right: 40px;
+    color:#878b8e;
+    border: none;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    cursor: pointer;
+    white-space: nowrap;
+    border:0px;
+    outline:0px;
+}
