@@ -1589,9 +1589,7 @@ textarea:focus{
 #a-txt.active {
   background: #f9f9ff;
 }
-
 /*Blog style*/
-
 .blog-parts{
   margin-left:8%;
   margin-top:11%;
@@ -1603,7 +1601,6 @@ textarea:focus{
   padding-left:4%;
   padding-bottom:5px;
   border:1px solid rgba(0,0,0,0.1);
-
 }
 .post{
   width:100%;
