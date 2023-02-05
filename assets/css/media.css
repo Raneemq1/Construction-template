@@ -47,6 +47,9 @@ footer .row{
 }
 
 @media screen and (max-width: 772px) {
+  .project .text-container {
+    width: 58.4%;
+}
   .services .icon {
     margin-top: -5% !important;
     margin-left: 4% !important;
