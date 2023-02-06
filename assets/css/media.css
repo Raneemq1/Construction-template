@@ -79,7 +79,8 @@
     padding: 0%;
   }
   .about .text br,
-  .text-about br, .talk br{
+  .text-about br,
+  .talk br {
     content: "";
   }
   .about h2 {
@@ -107,17 +108,17 @@
     width: 90vh !important;
     text-align: left;
   }
-  .about .row .btn{
+  .about .row .btn {
     margin-top: -96vh !important;
     margin-left: -18vh !important;
   }
-  .about .im-about{
+  .about .im-about {
     margin-left: -11% !important;
     position: absolute;
     display: block;
     margin-top: -34% !important;
   }
-  .about .start_year{
+  .about .start_year {
     margin-top: 7%;
     margin-left: 0.5%;
     height: 22vh;
@@ -139,7 +140,7 @@
     display: inline-block !important;
     width: 100%;
   }
-  .talk .text{
+  .talk .text {
     margin-left: 4%;
   }
   .talk .buttn {
@@ -151,7 +152,7 @@
     margin: 0;
     padding: 0;
   }
-  .about .row-btn{
+  .about .row-btn {
     width: 34% !important;
   }
   .top-bar {
