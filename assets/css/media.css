@@ -79,7 +79,7 @@
     padding: 0%;
   }
   .about .text br,
-  .text-about br {
+  .text-about br, .talk br{
     content: "";
   }
   .about h2 {
@@ -122,6 +122,9 @@
     margin-left: 0.5%;
     height: 22vh;
   }
+  .about .start_year {
+    height: 22vh;
+  }
   .project .column-container {
     display: flex !important;
     justify-content: left;
@@ -130,14 +133,18 @@
   .talk h2 {
     font-size: 50px;
     font-weight: 700;
-    margin-left: auto;
+    margin-left: -10%;
   }
   .talk .row {
     display: inline-block !important;
+    width: 100%;
+  }
+  .talk .text{
+    margin-left: 4%;
   }
   .talk .buttn {
     width: fit-content;
-    margin-left: -58%;
+    margin-left: -87%;
   }
   .talk,
   .about {
