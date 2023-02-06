@@ -92,10 +92,6 @@
   .about .row {
     display: inline-block !important;
   }
-  .about img,
-  .about .start_year {
-    visibility: hidden;
-  }
   .about .row {
     text-align: center;
   }
@@ -103,7 +99,7 @@
     width: fit-content;
   }
   .text-about {
-    margin-left: -8%;
+    margin-left: -7%;
     margin-top: -55%;
   }
   .about .text,
@@ -114,6 +110,17 @@
   .about .row .btn{
     margin-top: -96vh !important;
     margin-left: -18vh !important;
+  }
+  .about .im-about{
+    margin-left: -11% !important;
+    position: absolute;
+    display: block;
+    margin-top: -34% !important;
+  }
+  .about .start_year{
+    margin-top: 7%;
+    margin-left: 0.5%;
+    height: 22vh;
   }
   .project .column-container {
     display: flex !important;
