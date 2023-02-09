@@ -372,7 +372,7 @@ li {
   background-image: url("../img/section-bg3.jpg");
   position: absolute;
   width: 72%;
-  height: 22%;
+  height: 25%;
   margin-left: 12%;
   top: 615vh;
 }
@@ -2354,4 +2354,33 @@ margin-top:12%;
     white-space: nowrap;
     border:0px;
     outline:0px;
+}
+.rectangle .num-value{
+    color: #fff;
+    font-size: 55px;
+    font-weight: 700;
+    padding-right: 4%;
+    margin-left: -4%;
+}
+.rectangle .api-part{
+  margin-top: 2%;
+  color: #fff;
+    font-size: 36px;
+    text-transform: capitalize;
+    margin-left: -11%;
+    padding-bottom: 16%;
+}
+.rectangle .block-num{
+  width: 49%;
+  padding-left:  20.3%;
+  margin-right: 19%;
+}
+.rectangle .b-num{
+  margin-left: 5%;
+}
+.rectangle .h-block{
+  margin-left: 26%;
+}
+.rectangle .s-num{
+  padding-right: 5%;
 }
