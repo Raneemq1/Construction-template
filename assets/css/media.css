@@ -177,4 +177,25 @@
     top: 150px;
     right: 10px;
   }
+  .rectangle .api-part, .rectangle .rec-one{
+    padding: 0px;
+    margin-left: -18%;
+  }
+  .rectangle h5{
+    visibility: hidden;
+  }
+  .rectangle span{
+    visibility: visible;
+  }
+  .rectangle .api-part{
+    margin-left: -24%;
+  }
+  .rectangle .b-num, .block-num , .h-block{
+    width: 10% !important;
+    text-align: left !important;
+    padding-left: -4% !important;
+  }
+  .rectangle .h-block{
+    margin-left: 19%;
+  }
 }
