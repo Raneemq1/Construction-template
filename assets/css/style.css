@@ -2389,3 +2389,18 @@ margin-top:12%;
 .disable-class{
   cursor: not-allowed !important;
 }
+.form-gallery option{
+  font-family: "Font Awesome 6 Free" !important;
+}
+.form-gallery .fa-plane{
+  z-index: 2;
+  left: 114px;
+  margin-top: 144px !important;
+  color: #525050;
+}
+.form-gallery select{
+  z-index: 1;
+}
+.form-gallery .fa-globe{
+  z-index: 2;
+}
