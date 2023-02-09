@@ -2213,7 +2213,9 @@ margin-top:12%;
 .containerty input:checked ~ .check {
   background-color: #e47883;
 }
-
+.radio-three input:checked ~ .check {
+  background-color: #1d1d1d;
+}
 .containerty .check:after {
   content: "";
   position: absolute;
@@ -2383,4 +2385,7 @@ margin-top:12%;
 }
 .rectangle .s-num{
   padding-right: 5%;
+}
+.disable-class{
+  cursor: not-allowed !important;
 }
