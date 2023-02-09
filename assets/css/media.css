@@ -67,7 +67,7 @@
     padding-top: 20% !important;
     text-align: center;
   }
-  span {
+  .container span {
     visibility: hidden;
   }
   .services .read {
