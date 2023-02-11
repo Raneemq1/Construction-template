@@ -1,3 +1,8 @@
+@media screen and (max-width: 1430px) {
+  .laligned_section .l-block {
+    display: block !important;
+  }
+}
 @media screen and (max-width: 992px) {
   .top-bar {
     display: none;
@@ -43,6 +48,9 @@
   }
   .services .icon {
     margin-top: -4% !important;
+  }
+  .laligned_section .l-block {
+    display: block !important;
   }
 }
 
@@ -177,25 +185,28 @@
     top: 150px;
     right: 10px;
   }
-  .rectangle .api-part, .rectangle .rec-one{
+  .rectangle .api-part,
+  .rectangle .rec-one {
     padding: 0px;
     margin-left: -18%;
   }
-  .rectangle h5{
+  .rectangle h5 {
     visibility: hidden;
   }
-  .rectangle span{
+  .rectangle span {
     visibility: visible;
   }
-  .rectangle .api-part{
+  .rectangle .api-part {
     margin-left: -24%;
   }
-  .rectangle .b-num, .block-num , .h-block{
+  .rectangle .b-num,
+  .block-num,
+  .h-block {
     width: 10% !important;
     text-align: left !important;
     padding-left: -4% !important;
   }
-  .rectangle .h-block{
+  .rectangle .h-block {
     margin-left: 19%;
   }
 }
