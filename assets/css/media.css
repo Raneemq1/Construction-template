@@ -13,10 +13,16 @@
   .project .icon-col:hover .text-container {
     background-color: transparent;
   }
+  .rectangle{
+    display: none !important;
+  }
 }
 @media screen and (max-width: 992px) {
   .top-bar {
     display: none;
+  }
+  .rectangle{
+    display: none !important;
   }
   nav .btn {
     display: none !important;
@@ -44,8 +50,8 @@
     position: absolute;
     margin-left: 10% !important;
   }
-  .rectangle {
-    top: 1140vh;
+  .talk{
+    margin-bottom: 38% !important;
   }
   .about .row-paragraph {
     margin-left: -12% !important;
@@ -74,6 +80,9 @@
   .laligned_section .l-block {
     display: block !important;
   }
+  .about .title-b{
+    margin-bottom: 15% !important;
+  }
 }
 
 @media screen and (max-width: 772px) {
@@ -81,7 +90,7 @@
     width: 58.4%;
   }
   .project {
-    margin-top: 12% !important;
+    margin-top: 18% !important;
   }
   .services .icon {
     margin-top: -5% !important;
@@ -106,6 +115,9 @@
   .container span {
     visibility: hidden;
   }
+  .rectangle{
+    display: none !important;
+  }
   .services .read {
     margin: 0% 33%;
     padding: 0;
@@ -125,6 +137,9 @@
     font-weight: 700;
     padding: 0% 12%;
     margin-left: -14%;
+  }
+  .about .title-b{
+    margin-bottom: 15% !important;
   }
   .about .row {
     display: inline-block !important;
@@ -167,6 +182,16 @@
     justify-content: left;
     margin-left: -30%;
   }
+  .about{
+    padding-left: 8% !important;
+    width: 90% !important;
+  }
+  .about-span{
+    display: none !important;
+  }
+  .about .text-about{
+    margin-left: -12% !important;
+  }
   .talk h2 {
     font-size: 50px;
     font-weight: 700;
@@ -177,7 +202,7 @@
     width: 100%;
   }
   .talk .text {
-    margin-left: 4%;
+    margin-left: 6%;
   }
   .talk .buttn {
     width: fit-content;
@@ -215,29 +240,5 @@
     font-size: 18px;
     top: 150px;
     right: 10px;
-  }
-  .rectangle .api-part,
-  .rectangle .rec-one {
-    padding: 0px;
-    margin-left: -18%;
-  }
-  .rectangle h5 {
-    visibility: hidden;
-  }
-  .rectangle span {
-    visibility: visible;
-  }
-  .rectangle .api-part {
-    margin-left: -24%;
-  }
-  .rectangle .b-num,
-  .block-num,
-  .h-block {
-    width: 10% !important;
-    text-align: left !important;
-    padding-left: -4% !important;
-  }
-  .rectangle .h-block {
-    margin-left: 19%;
   }
 }
