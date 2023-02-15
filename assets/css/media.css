@@ -7,8 +7,11 @@
     justify-content: left;
     margin-left: -30%;
   }
-  .project{
+  .project {
     margin-top: 15% !important;
+  }
+  .project .icon-col:hover .text-container {
+    background-color: transparent;
   }
 }
 @media screen and (max-width: 992px) {
@@ -62,7 +65,10 @@
     justify-content: left;
     margin-left: -30%;
   }
-  .project{
+  .project .icon-col:hover .text-container {
+    background-color: transparent;
+  }
+  .project {
     margin-top: 12% !important;
   }
   .laligned_section .l-block {
@@ -74,7 +80,7 @@
   .project .text-container {
     width: 58.4%;
   }
-  .project{
+  .project {
     margin-top: 12% !important;
   }
   .services .icon {
@@ -197,6 +203,9 @@
   }
   header .text {
     font-size: 44px;
+  }
+  .project .icon-col:hover .text-container {
+    background-color: transparent;
   }
   .wave-text h1 {
     font-size: 44px;
