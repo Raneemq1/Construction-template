@@ -13,9 +13,27 @@
   .project .icon-col:hover .text-container {
     background-color: transparent;
   }
+<<<<<<< HEAD
   .rectangle{
     display: none !important;
   }
+=======
+  .wave-text h1 {
+    font-size: 74px;
+    right: -120px;
+  }
+  header .text{
+    font-size: 84px;
+    right: -120px;
+  }
+  header .first-text{
+    top:140px;
+   }
+   header .second-text{
+     top:360px;
+   }
+
+>>>>>>> c7e73f2ed721da8ba03eee959cedf8233e8e0b9c
 }
 @media screen and (max-width: 992px) {
   .top-bar {
@@ -80,9 +98,27 @@
   .laligned_section .l-block {
     display: block !important;
   }
+<<<<<<< HEAD
   .about .title-b{
     margin-bottom: 15% !important;
   }
+=======
+  .wave-text h1 {
+    font-size: 74px;
+    right: -120px;
+  }
+  header .text{
+    font-size: 84px;
+    right: -140px;
+  }
+  header .first-text{
+   top:140px;
+  }
+  header .second-text{
+    top:360px;
+  }
+
+>>>>>>> c7e73f2ed721da8ba03eee959cedf8233e8e0b9c
 }
 
 @media screen and (max-width: 772px) {
@@ -233,9 +269,14 @@
     background-color: transparent;
   }
   .wave-text h1 {
-    font-size: 44px;
-    right: -120px;
+    font-size: 50px;
+    right: -172px;
   }
+  header .text{
+    font-size: 62px;
+    left:50px;
+  }
+
   header .span {
     font-size: 18px;
     top: 150px;
