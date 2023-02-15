@@ -17,11 +17,11 @@
     display: none !important;
   }
   .wave-text h1 {
-    font-size: 74px;
-    right: -120px;
+    font-size: 60px;
+    right: -90px;
   }
   header .text{
-    font-size: 84px;
+    font-size: 78px;
     right: -120px;
   }
   header .first-text{
@@ -100,7 +100,7 @@
   }
   .wave-text h1 {
     font-size: 74px;
-    right: -120px;
+    right: -150px;
   }
   header .text{
     font-size: 84px;
@@ -263,11 +263,11 @@
     background-color: transparent;
   }
   .wave-text h1 {
-    font-size: 50px;
-    right: -172px;
+    font-size: 46px;
+    right: -162px;
   }
   header .text{
-    font-size: 62px;
+    font-size: 60px;
     left:50px;
   }
 
@@ -275,5 +275,45 @@
     font-size: 18px;
     top: 150px;
     right: 10px;
+  }
+  .overview{
+width:100%;
+  }
+  .contact{
+    align-items:flex-start;
+   
+  }
+  .links{
+    align-items:flex-end;
+
+  }
+  footer{
+    height:165%;
+  }
+  .test-title h2{
+    font-size:55px;
+  }
+  .test-swipe .swipe-p {
+    width:100%;
+    font-size:14px;
+    margin-left:-28px;
+  }
+  .latest-title h2 {
+    font-size:56px;
+  }
+  .latest-new{
+    margin-top:5%;
+    margin-left:1%;
+    margin-right:1%;
+  }
+  .latest-title span.back-text {
+    font-size:58px;
+  }
+  .latest-img .content-div{
+    margin-bottom:5%;
+  }
+  .latest-img .img-content2 {
+    left:0;
+    top:50%;
   }
 }
