@@ -2571,7 +2571,7 @@ font-weight:400;
   font-size:18px;
 }
 
-textarea {
-  height: 200px;
+#comment {
+  height: 60%;
   resize:none;
 }
