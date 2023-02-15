@@ -17,8 +17,9 @@
     display: none !important;
   }
   .wave-text h1 {
-    font-size: 60px;
-    right: -90px;
+    font-size: 66px;
+    top:205px;
+    right: 348px;
   }
   header .text{
     font-size: 78px;
@@ -114,6 +115,13 @@
   }
   .blog-several{
     display:none;
+  }
+  .latest-img .img-content1{
+    left:8.6%;
+  }
+  .latest-img .img-content2 {
+    left:51.%;
+   
   }
 }
 
@@ -322,8 +330,11 @@ width:100%;
   .latest-img .content-div{
     margin-bottom:5%;
   }
+  .latest-img .img-content1{
+    left:0%;
+  }
   .latest-img .img-content2 {
-    left:0;
+    left:0%;
     top:50%;
   }
   .about-header .text-one {
