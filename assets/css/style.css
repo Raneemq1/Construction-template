@@ -2585,3 +2585,11 @@ font-weight:400;
   color:#f45303;
   cursor: pointer;
 }
+/* Set the border color to the desired color */ 
+.navbar-toggler { 
+  border-color: #ff5f13 !important; 
+}
+
+.navbar-toggler-icon { 
+  color: #ff5f13 !important; 
+} 
