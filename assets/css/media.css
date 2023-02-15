@@ -2,6 +2,14 @@
   .laligned_section .l-block {
     display: block !important;
   }
+  .project .column-container {
+    display: flex !important;
+    justify-content: left;
+    margin-left: -30%;
+  }
+  .project{
+    margin-top: 15% !important;
+  }
 }
 @media screen and (max-width: 992px) {
   .top-bar {
@@ -49,6 +57,14 @@
   .services .icon {
     margin-top: -4% !important;
   }
+  .project .column-container {
+    display: flex !important;
+    justify-content: left;
+    margin-left: -30%;
+  }
+  .project{
+    margin-top: 12% !important;
+  }
   .laligned_section .l-block {
     display: block !important;
   }
@@ -57,6 +73,9 @@
 @media screen and (max-width: 772px) {
   .project .text-container {
     width: 58.4%;
+  }
+  .project{
+    margin-top: 12% !important;
   }
   .services .icon {
     margin-top: -5% !important;
