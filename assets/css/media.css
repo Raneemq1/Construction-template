@@ -42,7 +42,7 @@
     margin-left: 10% !important;
   }
   .rectangle {
-    top: 1135vh;
+    top: 1140vh;
   }
   .about .row-paragraph {
     margin-left: -12% !important;
@@ -92,7 +92,6 @@
   }
   .project .icon-col:hover .text-container {
     width: 50.7vh;
-    background-color: #1f1f95;
   }
   .services .container {
     padding-top: 20% !important;
