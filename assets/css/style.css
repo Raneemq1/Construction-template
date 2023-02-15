@@ -53,10 +53,12 @@ li {
   position: fixed;
   bottom: 15px;
   right: 15px;
-  padding: 14px 18px;
+  padding: 18px;
+  font-size:12px;
   z-index: 999;
   opacity: 0;
   transition: 0.3s;
+  border-radius:50%;
 
 }
 
@@ -2538,6 +2540,7 @@ margin-top:12%;
   font-size: 14px;
  
 }
+
 .comment-content .comment-date{
   margin-left:-25%;
   color:#9999;
@@ -2574,4 +2577,11 @@ font-weight:400;
 #comment {
   height: 60%;
   resize:none;
+}
+.comment-content .reply,.comment-content .comment-author,.author-content p,.prev-next{
+  transition:0.3s;
+}
+.comment-content .reply:hover,.comment-content .comment-author:hover,.author-content p:hover,.prev-next:hover{
+  color:#f45303;
+  cursor: pointer;
 }
