@@ -163,6 +163,9 @@
   .talk br {
     content: "";
   }
+  .start_year{
+    height: 35% !important;
+  }
   .about h2 {
     margin-top: -32%;
     font-size: 50px;
